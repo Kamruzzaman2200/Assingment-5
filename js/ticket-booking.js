@@ -1,4 +1,4 @@
-const container = document.getElementById('seatsContainer');
+const container = document.getElementById('seatCont');
 const buttons = container.getElementsByClassName('btn');
 const sup = document.getElementById('sup')
 const seatleft = document.getElementById('seat-left')
@@ -8,7 +8,7 @@ const couponfield = document.getElementById('coupon')
 const couponbtn = document.getElementById('couponbtn')
 const grandTotal = document.getElementById('grand')
 const discountTotal = document.getElementById('discount')
-const discountContainer = document.getElementById('discountContainer')
+const discountContainer = document.getElementById('discountCont')
 const cpnContainer = document.getElementById('cpnContainer')
 const next = document.getElementById('next')
 const phone = document.getElementById('phone')
